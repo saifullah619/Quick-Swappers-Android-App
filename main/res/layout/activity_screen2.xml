@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_1"
+    tools:context=".screen2">
+
+
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_width="364dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:alpha="0.7"
+        android:hint="   jhondoe@gmail.com"
+        android:textColorHint="@color/white"
+
+
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/password"
+        android:layout_width="367dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/email"
+        android:hint="   Your Password"
+
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/white"
+        android:alpha="0.7"
+        />
+
+    <Button
+        android:alpha="0.9"
+        android:id="@+id/signIn"
+        android:text="Sign In"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/oval_button"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <Button
+
+        android:text="Sign In As guest"
+        android:layout_marginTop="20dp"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:background="@drawable/oval_button"
+        android:layout_below="@id/signIn"
+        android:id="@+id/signInAsGuest"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/signInAsGuest"
+        android:weightSum="2"
+        android:layout_marginTop="30px"
+        >
+    <TextView
+        android:id="@+id/forgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/CreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:layout_marginRight="10dp"
+
+        />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    tools:context=".screen3">
+
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="68dp"
+        android:background="@drawable/left_arrow"
+        android:scaleType="fitXY"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@null"
+        app:layout_constraintTop_toBottomOf="@null"
+
+        />
+
+    <ImageButton
+        android:layout_width="107dp"
+        android:layout_height="87dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/insta"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="367dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:backgroundTint="@color/purple_200"
+        android:hint="Full Name"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        app:layout_constraintLeft_toLeftOf="@null"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/mob"
+        android:layout_width="367dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:backgroundTint="@color/purple_200"
+        android:hint="Mobile No.*"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        app:layout_constraintLeft_toLeftOf="@null"
+
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="367dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:backgroundTint="@color/purple_200"
+        android:hint="Email*"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        app:layout_constraintLeft_toLeftOf="@null"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="367dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:backgroundTint="@color/purple_200"
+        android:hint="Address"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        app:layout_constraintLeft_toLeftOf="@null"
+        tools:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/passw"
+        android:layout_width="367dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:backgroundTint="@color/purple_200"
+        android:hint="Password*"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        app:layout_constraintLeft_toLeftOf="@null"
+        tools:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/ConfirmPassw"
+        android:layout_width="367dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:backgroundTint="@color/purple_200"
+        android:hint="Confirm Password*"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        app:layout_constraintLeft_toLeftOf="@null"
+        tools:visibility="visible" />
+
+    <Button
+        android:contentDescription=""
+        android:id="@+id/CreateAccount"
+        android:text="Create Account"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="45dp"
+        android:gravity="center"
+        android:background="@drawable/oval_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        />
+
+
+</RelativeLayout>
